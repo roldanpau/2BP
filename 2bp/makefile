@@ -1,9 +1,9 @@
 SHELL = /bin/sh
 prefix = $(HOME)
 exec_prefix = $(prefix)
-bindir = $(exec_prefix)/bin
-includedir = $(prefix)/include
-libdir = $(exec_prefix)/lib
+bindir = $(exec_prefix)/bin/2bp
+includedir = $(prefix)/include/2bp
+libdir = $(exec_prefix)/lib/2bp
 CFLAGS = -O3 #-g
 LDFLAGS = -O3 #-g
 LDLIBS = -lm -lgsl -lgslcblas

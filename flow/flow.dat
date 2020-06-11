@@ -1,0 +1,6 @@
+1
+0.1
+1.0 1.0 -1.0 1.0
+
+# Mass parameter: \mu=1.
+# Integrate initial condition (x,y,dx,dy)=(1,1,-1,1) for time t=10.
