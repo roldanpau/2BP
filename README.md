@@ -12,9 +12,14 @@ integration.
 
 # Installation
 
-The code is intended for Linux systems (or compatible).
+The code is intended for Linux systems (or compatible). It assumes that the
+GSL development package has been installed. In Ubuntu, for example, this can be
+done via
+```
+sudo apt-get install libgsl-dev
+```
 
-First clone this repository.
+First clone this repository to your local machine.
 
 In the root directory (2BP) there are several subdirs (e.g. 2BP/flow). Each
 subdir contains code to perform a specific task (e.g. to compute the time-t
