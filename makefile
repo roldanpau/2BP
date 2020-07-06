@@ -14,7 +14,7 @@ export libdir = $(exec_prefix)/lib/2bp
 export LDFLAGS = -O3 -L$(HOME)/lib/2bp
 export CFLAGS = -O3 -DNDEBUG -I$(HOME)/include/2bp
 
-DIRS = 2bp flow
+DIRS = 2bp flow vareq dflow
 
 # the sets of directories to do various things in
 BUILDDIRS = $(DIRS:%=build-%)
