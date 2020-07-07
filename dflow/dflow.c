@@ -52,10 +52,10 @@ int main( )
    }
 
    // Output derivative matrix to stdout
-   if( printf("%.15le %.15le %.15le %.15le\n", D[0], D[1], D[2], D[3])<0 || 
-	   printf("%.15le %.15le %.15le %.15le\n", D[0], D[1], D[2], D[3])<0 || 
-	   printf("%.15le %.15le %.15le %.15le\n", D[0], D[1], D[2], D[3])<0 || 
-	   printf("%.15le %.15le %.15le %.15le\n", D[0], D[1], D[2], D[3])<0 )
+   if( printf("%f\t %f\t %f\t %f\t\n", D[0], D[1], D[2], D[3])<0 || 
+	   printf("%f\t %f\t %f\t %f\t\n", D[4], D[5], D[6], D[7])<0 || 
+	   printf("%f\t %f\t %f\t %f\t\n", D[8], D[9], D[10], D[11])<0 || 
+	   printf("%f\t %f\t %f\t %f\t\n", D[12], D[13], D[14], D[15])<0 )
    {
       perror("main: error writting output");
       exit(EXIT_FAILURE);
